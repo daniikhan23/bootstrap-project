@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="styling.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+    <!--Navigation at the top of the page-->
+    <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Welcome to ...</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +47,73 @@
             </form>
           </div>
         </div>
-      </nav>
+    </nav>
+
+    <!--Header with an image as a background-->
+    <header class="container-fluid text-white">
+        <div class="container position-relative">
+            <div class="row justify-content-center">
+                <div class="col-xl-6">
+                    <div class="text-center">
+                        <h1>Here we provide the best solutions in the industry!</h1>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <div class="email-form">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                    </div>
+                    <div class="col-auto my-4">
+                        <button type="button" class="btn btn-outline-success btn-lg">Submit</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <!--Adding a section to the webpage-->
+    <section class="container bg-dark text-center text-white">
+        <div class="row my-5 justify-content-center align-items-center">
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="/assets/images/fullstack.jpg" class="card-img-top" alt="Full Stack Image" style="height: 200px;">
+                    <div class="card-body bg-dark">
+                      <p class="card-text">
+                        This comprehensive knowledge about every layer of the development process will 
+                        position you as a top professional in the global IT market. Being a full stack 
+                        developer allows you to understand the complete workflow of a project.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="/assets/images/booty.jpg" class="card-img-top" alt="Bootstrap 5" style="height: 200px;">
+                    <div class="card-body bg-dark">
+                      <p class="card-text">
+                        One of the biggest advantages of using Bootstrap is compatibility across 
+                        browsers. With Bootstrap by your side, heave a sigh of relief when it 
+                        comes to displaying your landing page across multiple browsers. Its 
+                        compatibility with Google Chrome, Firefox, Safari, and Internet Explorer 
+                        makes it more versatile.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="/assets/images/ui-ux.jpg" class="card-img-top" alt="User Experience" style="height: 240px;">
+                    <div class="card-body bg-dark">
+                      <p class="card-text">
+                        In business, UI/UX design helps businesses in a number of ways : Creates a 
+                        positive impression of a product- A user's impression and experience determine 
+                        the acceptance level a product would attain in the target market.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"

@@ -1,12 +1,29 @@
-a.navbar-brand {
-    color: white;
+body {
+    background-color: #212529;
 }
 
-.nav-link{
+a.navbar-brand,
+.nav-link,
+.nav-link dropdown-toggle,
+.dropdown-item{
     color: white;
 }
 
 .btn-outline-success {
     color: white;   
     border-color: white;
+}
+
+ul.dropdown-menu {
+    background-color: #212529;
+}
+
+header {
+    background: url(/assets/images/wp1.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 12rem 0;
+}
+
+.card {
+    border: 0;
 }
