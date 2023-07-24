@@ -26,4 +26,6 @@ header {
 
 .card {
     border: 0;
+    background-color: #212529;
+    color: white;
 }

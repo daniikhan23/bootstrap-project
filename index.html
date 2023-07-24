@@ -15,10 +15,10 @@
   </head>
   <body>
     <!--Navigation at the top of the page-->
-    <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark">
+    <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Welcome to ...</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" style="background-color: white;"type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -29,7 +29,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Link</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown bg-dark">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown
                 </a>
@@ -74,46 +74,79 @@
         </div>
     </header>
     <!--Adding a section to the webpage-->
-    <section class="container bg-dark text-center text-white">
-        <div class="row my-5 justify-content-center align-items-center">
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="/assets/images/fullstack.jpg" class="card-img-top" alt="Full Stack Image" style="height: 200px;">
-                    <div class="card-body bg-dark">
-                      <p class="card-text">
-                        This comprehensive knowledge about every layer of the development process will 
-                        position you as a top professional in the global IT market. Being a full stack 
-                        developer allows you to understand the complete workflow of a project.</p>
-                    </div>
+    <div class="card-group bg-dark my-5 py-5">
+        <div class="card align-items-center">
+          <img src="/assets/images/fullstack.jpg" class="card-img-top" alt="FullStackDev"style="width: 350px; height: 200px;">
+          <div class="card-body">
+            <h5 class="card-title text-center">Use of Full Stack Development to create modern websites! </h5>            
+            <p class="card-text text-center">This comprehensive knowledge about every layer of the development process will 
+                position you as a top professional in the global IT market. Being a full stack 
+                developer allows you to understand the complete workflow of a project.</p>
+          </div>
+        </div>
+        <div class="card align-items-center">
+          <img src="/assets/images/booty.jpg" class="card-img-top" alt="Bootstrap 5"style="width: 350px; height: 200px;">
+          <div class="card-body">
+            <h5 class="card-title text-center">Bootstrap 5 to make your designs modern and stylish!</h5>
+            <p class="card-text text-center">One of the biggest advantages of using Bootstrap is compatibility across 
+                browsers. With Bootstrap by your side, heave a sigh of relief when it 
+                comes to displaying your landing page across multiple browsers. Its 
+                compatibility with Google Chrome, Firefox, Safari, and Internet Explorer 
+                makes it more versatile</p>
+          </div>
+        </div>
+        <div class="card align-items-center">
+          <img src="/assets/images/ui-ux.jpg" class="card-img-top" alt="UI/UX" style="width: 350px; height: 200px;">
+          <div class="card-body">
+            <h5 class="card-title text-center">Intuitive User Experience on screens of all shapes and sizes!</h5>
+            <p class="card-text text-center">In business, UI/UX design helps businesses in a number of ways : Creates a 
+                positive impression of a product- A user's impression and experience determine 
+                the acceptance level a product would attain in the target market.</p>
+          </div>
+        </div>
+    </div>
+    <!--Explanation of previous section-->
+    <div class="container-fluid bg-light">
+        <div class="row">
+            <div class="col-6 my-5 py-5" >
+                <div class="information text-center my-auto border-dark p-5">
+                    <h2>Why is Full Stack so good?</h2>
+                    <p>Increased efficiency, better communication between front-end and back-end
+                        teams and the ability to oversee the entire development process. What 
+                        else do you want?
+                    </p>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="/assets/images/booty.jpg" class="card-img-top" alt="Bootstrap 5" style="height: 200px;">
-                    <div class="card-body bg-dark">
-                      <p class="card-text">
-                        One of the biggest advantages of using Bootstrap is compatibility across 
-                        browsers. With Bootstrap by your side, heave a sigh of relief when it 
-                        comes to displaying your landing page across multiple browsers. Its 
-                        compatibility with Google Chrome, Firefox, Safari, and Internet Explorer 
-                        makes it more versatile.</p>
-                    </div>
-                </div>
+            <div class="col-6 p-5" style="background-image: url(assets/images/fs1.jpg); background-size: cover; background-position: center;">
             </div>
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="/assets/images/ui-ux.jpg" class="card-img-top" alt="User Experience" style="height: 240px;">
-                    <div class="card-body bg-dark">
-                      <p class="card-text">
-                        In business, UI/UX design helps businesses in a number of ways : Creates a 
-                        positive impression of a product- A user's impression and experience determine 
-                        the acceptance level a product would attain in the target market.</p>
-                    </div>
+        </div>
+        <div class="row">
+            <div class="col-6 p-5" style="background-image: url(assets/images/booty2.jpg); background-size: cover; background-position: center;">
+            </div>
+            <div class="col-6 my-5 py-5" >
+                <div class="information text-center my-auto border-dark p-5">
+                    <h2>Why is Full Stack so good?</h2>
+                    <p>Increased efficiency, better communication between front-end and back-end
+                        teams and the ability to oversee the entire development process. What 
+                        else do you want?
+                    </p>
                 </div>
             </div>
         </div>
-    </section>
-
+        <div class="row">
+            <div class="col-6 my-5 py-5" >
+                <div class="information text-center my-auto border-dark p-5">
+                    <h2>Why is Full Stack so good?</h2>
+                    <p>Increased efficiency, better communication between front-end and back-end
+                        teams and the ability to oversee the entire development process. What 
+                        else do you want?
+                    </p>
+                </div>
+            </div>
+            <div class="col-6 p-5" style="background-image: url(/assets/images/UX\ vs\ UI\ Design\ \(002\).png); background-size: cover; background-position: center;">
+            </div>
+        </div>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
